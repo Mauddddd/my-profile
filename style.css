@@ -1,0 +1,104 @@
+/* Font and colors*/
+
+body{
+	background:  #ECEDFF;
+	font-size: 15px;
+	font-weight: 300;
+}
+body{
+	font-family: Roboto Slab, serif;
+}
+h1{
+	font-weight: 200;
+	font-weight: bold;
+}
+h1,h2{
+	font-family: Times, serif;
+}
+a{
+	text-decoration: none;
+	color: #EBFFFE;
+	font-weight: bold;
+}
+a:hover {
+	color: black;
+}
+
+ #img-profil{
+ 	width: 150px;
+ 	border-radius: 50%;
+ 	 }
+ .shadowed{
+ 	box-shadow: 5px 3px 3px black;
+ }
+ style="
+            width: 300px;
+            margin: 0 auto;
+            background: white;
+            padding: 300px;
+            border-radius: 4px;
+            box-shadow: 0 15px 35px black;"
+
+/* Custom design*/
+
+.container{
+	width: 300px;
+	margin: 40px auto;
+ }
+
+/* Design for different media*/
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+ @media (max-width: 760px){
+ 	.container{
+ 		width: 600px;
+ 	}
+ }
+
+ @media (max-width: 500px){
+ 	.container{
+ 		width: 400px;
+ 	}
+ }
+
+/* Style page (card white)*/
+
+ .card-white{
+ 	background-color: white;
+ 	padding: 20px;
+ 	box-shadow: 0px 5px 15px grey;
+ 	border-radius: 20px;
+ 	margin: 25px 300px;
+ 	text-align: center;
+ }
+
+ /* Design Btn and social media*/
+
+.btn-pink{
+	background-color:#D3D6FF ;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 10px;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 50px;
+	color:#D3D6FF
+}
+.list-inline i:hover {
+	color: black;
+}
+
+
